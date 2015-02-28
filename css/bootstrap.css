@@ -3990,12 +3990,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
 }
 
-section {
-    background-color: #69C4CC;
-    margin: 150px 0 0;
-    padding: 480px;
 
-  }
 
   /*Nav bar peach heading. this didn't work. hid it by changing it to teal */
 
@@ -4038,8 +4033,7 @@ section {
     width: 790px;
     height: 690px;
     border-radius: 10%;
-    position: absolute;
-    left: 235px;
+    position: relative;
     background: #FFF;
 }
 

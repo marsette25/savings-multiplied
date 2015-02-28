@@ -1,0 +1,284 @@
+
+html {
+background: #CFEFEE;
+}
+
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/************ sign in and sign up div position******** */
+
+#navcontainer {
+	margin-top: 95px;
+	margin-bottom: 75px;
+	margin-right: 160px;
+
+
+} 
+
+/*********** sign in and sign up margins*********/
+
+#navlist li {
+	text-align: right;
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 10px;
+	list-style-position: right;
+	float: right;
+
+}
+
+
+
+/********sign in and sign up font**********/
+
+#navlist a {
+	color: #69C4CC;
+}
+
+
+#navlist {
+	color: #69C4CC;
+}
+
+
+/********get the rounded squared **********/
+
+#backgroundBox {
+	display: inline-block;
+    width: 1000px;
+    height: 950px;
+    border-radius: 5%;
+    position: absolute;
+    left: 150px;
+    top: 120px;
+    background: #FFF;
+}
+
+
+/********logo and pillbox tables**********/
+
+#LogoDiv {
+	position: absolute;
+	left: 150px;
+	top: 75px;
+	z-index: 999;
+}
+
+
+.pillBoxCell {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.pillBoxTable {
+	table-layout: fixed;
+	position: absolute;
+	right: -500px;
+	top: 85px;
+
+}
+
+/********peach nav bar **********/
+/*#peachNavBar li {
+	text-align: right;
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 10px;
+	list-style-position: right;
+	float: right;
+
+}*/
+
+/*#peach a {
+	color: #6F1549;
+	font-family: georgia;
+	font-weight: bold;
+	font-size: 24px;
+}*/
+
+.peachNavBar {
+	list-style-type: none;
+	margin-top: 185px;
+	background: #F3CECD;
+	position: absolute;
+	z-index: 999;
+} 
+
+#peachNavBarCell {
+	text-align: center;
+	color: #6F1549;
+	text-align: none;
+	font-family: georgia;
+	font-weight: bold;
+	font-size: 24px;
+	
+
+}
+
+.peachNavBarCell2 {
+	text-align: center;
+
+
+}
+input[type=text] {
+	width: 135px;
+	padding: 3px;
+	outline: none;
+	border: 2px solid #6F1549;
+	border-radius: 15px;
+	background-color: white;
+	background-image: url('http://www.kirupa.com/images/search.png');
+	background-position: 10px -10px;
+	background-repeat: no-repeat;
+	color: #F3CECD;
+	text-align: left;
+
+
+}
+
+input[type=text] {
+	color: #F3CECD;
+}
+
+/*#About {
+    position: absolute;
+    top: 1em;
+    right: 2em;
+    width: 120px;
+    font-weight: bold;
+    font-size: 11px;
+    color: white;
+  } */
+
+/*********baby pictures*******************/
+
+.bodyImages {
+	position: absolute;
+	z-index: 999;
+	right: 155px;
+	top: 350px;
+
+}
+
+#easierLife {
+	position: absolute;
+	text-align: left;
+	font-weight: bold;
+	top: 350px;
+	left: 175px;
+	font-family: Georgia;
+	font-size: 29px;
+	color: #66CD00;
+}
+
+#sellingGentlyUsedClothes {
+	position: absolute;
+	z-index: 999;
+	left: 155px;
+	bottom: 150px;
+	color: #69C4CC;
+	padding: 5px;
+
+}
+
+.gentlyUsedClothes {
+	font-size: 16px;
+}
+
+#shopNow {
+	position: absolute;
+	z-index: 999;
+	top: 495px;
+	left: 168px;
+
+}
+
+#tree {
+	position: absolute;
+	z-index: 999;
+	top: 692px;
+	right: 540px;
+}
+
+/**** dotted line******/
+
+#dottedLine {
+	position: absolute;
+	z-index: 999;
+	top: 895px;
+	left: 175px;
+
+}
+
+#findUsOn {
+	position: absolute;
+	z-index: 999;
+	top: 930px;
+	left: 190px;
+}
+
+
+/*.div_backgrndimg
+{
+    background-repeat: repeat-y;
+    background-image: url("/image/layout/lotus-dreapta.png");
+    width:200px;
+}
+
+
+/************ sign in and sign up div position******** */
+
+#footerContainer {
+	/*margin-top: 95px;
+	margin-bottom: 75px;
+	margin-right: 160px;*/
+
+
+} 
+
+/*********** footer/section margins*********/
+
+section {
+	top: 56px;
+    background-color: #69C4CC;
+    /*margin: 200px 0 0;*/
+
+  }
+
+footer {
+	clear: both;
+    position: absolute;
+    top: 1150px;
+    height: 3em;
+    margin-top: -3em;
+}
+
+#footerList li{
+	text-align: right;
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 10px;
+	list-style-position: right;
+
+
+}
+
+
+
+/********sign in and sign up font**********/
+
+#navlist a {
+	color: #69C4CC;
+}
+
+
+#navlist {
+	color: #69C4CC;
+}
+

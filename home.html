@@ -7,6 +7,7 @@
     <title>Savings Multiplied</title>
 
     <!-- Bootstrap -->
+    <link href="css/main.css" rel="stylesheet">
     <link href="css/bootstrap-theme.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -20,96 +21,175 @@
 
 </head>
  
-
- <body class="bgColor"> 
-
-
-<ul class="nav nav-pills">
-  <li role="presentation"><a class="navPilChangeColor" href="#">sign in</a></li> 
-  <li class="navStackedBar">|</li>  
-  <li role="presentation"><a class="navPilChangeColor" href="#">sign up</a></li>
-</ul>
+<body> 
 
 
-<nav class="Logo" class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">
-        <img alt="Brand" src="images\savings-multiplied-logo.png"> <img alt="Tagline" src="images\tagline.png">
-        <span class="label label-default">Default</span>
-    </a>
-
- </nav> 
+<div id="navcontainer">
+    <ul id="navlist">
+        <li id="active"><a href="#" id="current">sign in</a></li> 
+         <li id="active">|</li> 
+      <li id="active"><a href="#">sign up</a></li>
+    </ul>
 
 
- <!-- MT testing this to see if i can make the pink bar. -->
-<nav class="PeachNav" class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+</div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+
+<div id="backgroundBox">
+
+</div> 
+
+<div id="LogoDiv">
+  <img src="images\savings-multiplied-logo.png" alt="Logo">
+
+ 
+
+  <table class="pillBoxTable" style="width:114%">
+  <tr>
+    <td width="30px"></td>
+    <td><a class="pillBoxCell" href="#"><img src="images\pillbox_button.png" style="position:absolute;z-index:1;background:#69C4CC;"/> <div style="z-index:2;position:relative;">About</div></a></td>
+
+    <td><a class="pillBoxCell" href="#"><img src="images\pillbox_button.png" style="position:absolute;z-index:1;background:#66CD00;"/> <div style="z-index:2;position:relative;">Contact</div></td> </a>
+
+    <td><a class="pillBoxCell" href="#"><img src="images\pillbox_button.png" style="position:absolute;z-index:1;background:#6F308B;"/>
+    <div style="z-index:2;position:relative;">Blog</div></a></td>
+
+    <td><a class="pillBoxCell" href="#"><img src="images\pillbox_button.png" style="position:absolute;z-index:1;background:#E9168C;"/>
+    <div style="z-index:2;position:relative;">Press</div></a></td>
+</tr>
+  <tr height="65px">
+    <th colspan="4"><img id="tagLine" src="images\tagline.png"><th>
+  </tr>
+</table>
+
+
+</div>
+
+
+<div>
+ <table class="peachNavBar" style="width:110%">
+  <tr height="50px">
+  <td width="150px"></td>
+    <td class="peachNavBarCell2"> <a id="peachNavBarCell" href='#'>Buy</a> </td>
+    <td class="peachNavBarCell2"> <a id="peachNavBarCell" href='#'>Sell</a> </td>
+    <td class="peachNavBarCell2"> <a id="peachNavBarCell" href='#'>How it Works</a> </td>
+    <td class="peachNavBarCell2"> <a id="peachNavBarCell" href='#'>Links</a> </td>
+    <td class="peachNavBarCell2"> <a id="peachNavBarCell" href='#'>Community</a></td>
+
+    <td class="peachNavBarCell3">
+    <!--<a id="peachNavBarCell" href="#"><img src="images\pillbox_button.png" style="position:absolute;z-index:1;"/> <img src="images\search.gif" style="position:absolute;z-index:2;"/>
+    <div style="z-index:3;position:relative;">search</div></a>-->
+      <form class="searchBar">
+       <div id="mainContent">
+<input placeholder="Search" type="text"> <br>
+</div>
       </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    </td>
+  <td width="200px"></td>
 
-<h1></h1>
+  </tr>
+  </table>   
 
-<div class="roundedSquareBackground"> 
-</div>  
+</div>
+
+<p id="easierLife">We're making one aspect of life easier<BR>for parents of multiples:</p>
+
+<div class="bodyImages">
+
+
+<img src="images\children\twins.jpg" alt="Twins"><BR><BR>
+<img src="images\children\triplets.jpg" alt="Twins"><BR><BR>
+<img src="images\children\quads.jpg" alt="Twins">
+
+
+</div id="gentlyUsed">
+
+
+ <table id="sellingGentlyUsedClothes" style="width:110%">
+  <tr>
+   
+    <td align="right" width="45px" class="gentlyUsedClothes"> <img src="images\owls\owl_bright_blue_32.png" alt="blue owl"></td>
+    <td class="gentlyUsedClothes">&nbsp;buying and selling gently used sets of clothes! </td>
+  </tr>
+  </table>  
+
+</div>
+
+<div id="shopNow">
+<img width="570px" src="images\homepage\left_2_shop_now.png" alt="Shop Now">
+</div>
+
+<div id="tree">
+  <img src="images\homepage\tree.png" alt="Tree">
+  </div>
+
+  <div id="dottedLine">
+    <table id="dotteLineBottom" style="width:102%">
+  <tr>
+   
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+    <td><img src="images\homepage\dotted_line_44x9.png" alt="Dotted Line"> </td>
+
+  </tr>
+  </table> 
+     
+</div>
+
+<div id="callOuts">
+ <table id="findUsOn" style="width:75%">
+  <tr>
+    <td> <a href="#"><img src="images\homepage\facebook_callout.png" alt="FaceBook"></a href></td>
+    <td><a href="#"><img src="images\homepage\twitter_callout.png" alt="Twitter"> </td>
+    <td><a href="#"><img src="images\homepage\message_board_callout.png" alt="Message Board"></a href> </td>
+    <td><img src="images\homepage\special_offers_callout.png" alt="Special Offers"></td>
+  </tr>
+  </table>  
+</div>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
+
+
+
   </body>
 
-  <section>
-  hella
-  </section>
 
-  </html>
+  <section></section>
+
+<footer><div id="footerContainer">
+    <ul id="footerList">
+        <li id="active"><a href="#" id="current">link here</a></li> 
+         <li id="active">|</li> 
+      <li id="active"><a href="#">link here</a></li>
+               <li id="active">|</li> 
+      <li id="active"><a href="#">link here</a></li>
+               <li id="active">|</li> 
+      <li id="active"><a href="#">link here</a></li>
+               <li id="active">|</li> 
+      <li id="active"><a href="#">link here</a></li>
+    </ul></footer>
+
+</html>
