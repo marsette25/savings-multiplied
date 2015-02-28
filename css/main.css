@@ -244,9 +244,10 @@ input[type=text] {
 
 /*********** footer/section margins*********/
 
-section {
+#hopefully {
+	position: absolute;
 	top: 56px;
-    background-color: #69C4CC;
+    color: #69C4CC;
     /*margin: 200px 0 0;*/
 
   }
@@ -255,8 +256,10 @@ footer {
 	clear: both;
     position: absolute;
     top: 1150px;
+    left: 285px;
     height: 3em;
     margin-top: -3em;
+    background-color: #69C4CC;
 }
 
 #footerList li{
@@ -267,6 +270,14 @@ footer {
 	list-style-position: right;
 
 
+}
+
+#footerList a{
+	color: #D5F1F0;
+}
+
+#footerList {
+	color: #D5F1F0;
 }
 
 
